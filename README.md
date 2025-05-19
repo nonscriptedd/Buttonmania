@@ -10,6 +10,9 @@ Type this in the terminal:
 
 
 1 - Click the green "Code" button.
-2 - Click "Download ZIP"
-3 - Extract it
-4 - Open the HTML
+
+2 - Click "Download ZIP".
+
+3 - Extract the ZIP you downloaded.
+
+4 - Open the HTML file.
