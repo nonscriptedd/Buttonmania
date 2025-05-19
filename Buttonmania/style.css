@@ -1,0 +1,70 @@
+:root {
+    --textc: white;
+    --gradient1: linear-gradient(to right, rgb(255, 29, 29), rgb(255, 60, 60));
+    --backgradient: linear-gradient(to left, rgb(52, 52, 52), rgb(78, 78, 78));
+}
+
+body {
+    background: var(--backgradient);
+    font-family: 'Roboto', sans-serif;
+    color: var(--textc);
+}
+
+button {
+    color: var(--textc);
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 15px rgb(52, 52, 52);
+    box-shadow: 4px 4px 15px rgb(52, 52, 52);
+    background: var(--gradient1);
+    border: 0.3rem black;
+    border-radius: 0.9rem;
+    width: 14rem;
+    height: 4rem;
+    transition: all 0.6s ease;
+    font-size: x-large;
+}
+
+button:hover {
+    text-shadow: 4px 4px 16px rgb(42, 42, 42);
+    box-shadow: 5px 5px 17px rgb(228, 76, 76);
+    transform: scale(1.05);
+}
+
+.titlediv {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-shadow: 2px 2px 3px rgb(56, 54, 54);
+}
+
+
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    gap: 2.5%;
+    height: 8.5rem;
+}
+
+.btnman {
+    display: flex;
+    justify-content: center;
+}
+
+.emptydiv {
+    color: var(--textc);
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 15px rgb(52, 52, 52);
+    box-shadow: 4px 4px 15px rgb(52, 52, 52);
+    background: var(--gradient1);
+    border: 0.3rem black;
+    border-radius: 0.9rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -8%;
+    rotate: -10deg;
+}
