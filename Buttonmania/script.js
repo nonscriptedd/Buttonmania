@@ -2,6 +2,8 @@ const title = document.querySelector(".title");
 const empty = document.querySelector(".empty");
 const sound = new Audio('audio/ticks.mp3');
 const music = new Audio("audio/sleep.mp3");
+const jam = new Audio("audio/jammy.mp3")
+const pow = new Audio("audio/SLAP.mp3");
 
 const btnman = document.querySelector(".btnman");
 btnman.addEventListener("click", () => {
@@ -31,7 +33,7 @@ btn4.addEventListener("click", () => {
 
 const btn5 = document.querySelector(".btn5");
 btn5.addEventListener("click", () => {
-    const annoy = prompt("Did you click button 4 yet?");
+    const annoy = prompt("Change the website title:");
     title.textContent = `${annoy}`;
     document.title = `${annoy}`;
 });
@@ -83,7 +85,7 @@ btn9.addEventListener("click", () => {
     btn9.textContent = "Get ready..."; // Only change this button
     setTimeout(() => {
         location.reload(true);   //! reloads website while ignoring cache because of (true)
-    }, 10000); // Waits 10 seconds before reloading
+    }, 4000); // Waits 10 seconds before reloading
     sound.play();
 });
 
@@ -101,10 +103,16 @@ btn11.addEventListener("click", () => {
 
 
 const btn12 = document.querySelector(".btn12");
-
+btn12.addEventListener("click", () => {
+    btn12.textContent = "Enjoy the music!"
+    jam.play();
+});
 
 const btn13 = document.querySelector(".btn13");
-
+btn13.addEventListener("click", () => {
+    btn13.textContent = "Pow!"
+    pow.play();
+});
 
 const btn14 = document.querySelector(".btn14");
 
